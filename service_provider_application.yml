@@ -1,7 +1,6 @@
 spring:
   profiles:
     active: dev
-
 ---
 server:
   port: 8001
@@ -13,7 +12,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka  #服务注册的注册中心的地址
-
 ---
 server:
   port: 8002
