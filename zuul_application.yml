@@ -40,4 +40,4 @@ zuul:
   ignored-services: "*" 
   routes:
     plat.serviceId: USER-PROVIDER-AIGOU
-    plat.path: /plat/**
+    plat.path: /plat/** 
