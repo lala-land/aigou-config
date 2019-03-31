@@ -19,7 +19,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka  #服务注册的注册中心的地址
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/*Mapper.xml
-  type-aliases-package: cn.itsource.domain
+  type-aliases-package: cn.itsource.domain,cn.itsource.query
 
 ---
 server:
@@ -39,4 +39,4 @@ eureka:
       defaultZone: http://localhost:7001/eureka  #服务注册的注册中心的地址
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/*Mapper.xml
-  type-aliases-package: cn.itsource.domain
+  type-aliases-package: cn.itsource.domain,cn.itsource.query
