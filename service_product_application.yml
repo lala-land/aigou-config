@@ -17,6 +17,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka  #服务注册的注册中心的地址
+feign:
+  hystrix:
+    enabled: true
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/*Mapper.xml
   type-aliases-package: cn.itsource.domain,cn.itsource.query
@@ -37,6 +40,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka  #服务注册的注册中心的地址
+feign:
+  hystrix:
+    enabled: true
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/*Mapper.xml
   type-aliases-package: cn.itsource.domain,cn.itsource.query
